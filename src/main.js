@@ -1,8 +1,15 @@
-import Vue from 'vue'
-import App from './App'
+import Vue from 'vue';
+import VueRouter from 'vue-router';
+import App from './app';
+import {route} from './routes/index';
 
-/* eslint-disable no-new */
-new Vue({
-  el: 'body',
-  components: { App }
-})
+// use vue-plugin
+Vue.use(VueRouter);
+
+let router = new VueRouter({
+  hashbang: false
+});
+// use router
+router.map(route);
+// start our app
+router.start(App, 'app');
