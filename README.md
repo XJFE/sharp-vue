@@ -3,6 +3,7 @@
 > a perfact scaffold for everyone
 
 ## Share-vue todo list
++ [ ] use **ES6**
 + [ ] add [vue-router](https://github.com/vuejs/vue-router) support
 + [ ] add [vue-resource](https://github.com/vuejs/vue-resource) support
 + [ ] add [browser-sync](https://browsersync.io/) support
